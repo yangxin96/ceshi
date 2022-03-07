@@ -18,4 +18,10 @@ public class Shu {
     public String he(){
         return "简单的测试";
     }
+
+
+    @GetMapping("ce")
+    public String ceshi(){
+        return "第二次测试";
+    }
 }
