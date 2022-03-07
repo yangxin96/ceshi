@@ -24,4 +24,9 @@ public class Shu {
     public String ceshi(){
         return "第二次测试";
     }
+
+    @GetMapping("shi")
+    public String ce(){
+        return "第三次测试";
+    }
 }
