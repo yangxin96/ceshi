@@ -29,4 +29,9 @@ public class Shu {
     public String ce(){
         return "第三次测试";
     }
+
+    @GetMapping("cs")
+    public String shi(){
+        return "第四次测试";
+    }
 }
